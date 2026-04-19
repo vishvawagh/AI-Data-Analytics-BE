@@ -28,8 +28,8 @@ def login(data: dict, response: Response):
         key="session_id",
         value=session_id,
         httponly=True,
-        samesite="lax",   # 🔥 important for localhost
-        secure=False      # 🔥 keep False for local dev
+        samesite="none",   # 🔥 important for localhost
+        secure=True      # 🔥 keep False for local dev
     )
 
     return {"message": "Login successful"}
