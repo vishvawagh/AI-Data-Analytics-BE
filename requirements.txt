@@ -18,7 +18,7 @@ pydantic_core==2.41.5
 python-dotenv==1.2.2
 python-jose==3.5.0
 rsa==4.9.1
-torch==2.3.0
+torch
 transformers==4.40.0
 six==1.17.0
 starlette==1.0.0
