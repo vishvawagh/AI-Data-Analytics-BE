@@ -1,4 +1,4 @@
-﻿annotated-doc==0.0.4
+annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.13.0
 bcrypt==5.0.0
@@ -18,10 +18,14 @@ pydantic_core==2.41.5
 python-dotenv==1.2.2
 python-jose==3.5.0
 rsa==4.9.1
-torch
-transformers==4.40.0
+torch==2.4.0
 six==1.17.0
 starlette==1.0.0
 typing-inspection==0.4.2
 typing_extensions==4.15.0
 uvicorn==0.44.0
+pip
+setuptools
+wheel
+tokenizers>=0.15.2
+transformers>=4.40.0
